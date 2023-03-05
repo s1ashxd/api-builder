@@ -4,8 +4,7 @@
     {
       "id": "log",
       "layout": "blocks/log.js",
-      "expandable": false,
-      "fields": ["message"]
+      "expandable": false
     }
   ]
 }

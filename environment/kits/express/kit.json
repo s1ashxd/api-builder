@@ -10,8 +10,7 @@
     {
       "id": "response",
       "layout": "blocks/response.js",
-      "expandable": true,
-      "fields": ["path"]
+      "expandable": true
     }
   ],
   "fields": [

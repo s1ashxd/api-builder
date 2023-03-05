@@ -10,8 +10,7 @@
     {
       "id": "error",
       "layout": "blocks/error.js",
-      "expandable": false,
-      "fields": ["message"]
+      "expandable": false
     }
   ],
   "fields": []
