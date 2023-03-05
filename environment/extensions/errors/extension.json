@@ -1,0 +1,18 @@
+{
+  "id": "errors",
+  "compatibility": {
+    "language": "javascript",
+    "kits": ["*"],
+    "conflict_kits": []
+  },
+  "basement": "basement",
+  "blocks": [
+    {
+      "id": "error",
+      "layout": "blocks/error.js",
+      "expandable": false,
+      "fields": ["message"]
+    }
+  ],
+  "fields": []
+}

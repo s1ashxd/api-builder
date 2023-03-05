@@ -1,0 +1,37 @@
+{
+  "id": "express",
+  "language": "javascript",
+  "structure": {
+    "basement": "basement",
+    "target": "src/index.js",
+    "env": ".env"
+  },
+  "blocks": [
+    {
+      "id": "response",
+      "layout": "blocks/response.js",
+      "expandable": true,
+      "fields": ["path"]
+    }
+  ],
+  "fields": [
+    {
+      "id": "port",
+      "name": "PORT",
+      "replace_type": "ENV",
+      "defaults": "8080"
+    },
+    {
+      "id": "name",
+      "replace_type": "PLACEHOLDER",
+      "targets": ["package.json", "package-lock.json"],
+      "defaults": "1.0.0"
+    },
+    {
+      "id": "description",
+      "replace_type": "PLACEHOLDER",
+      "targets": ["package.json", "package-lock.json"],
+      "defaults": ""
+    }
+  ]
+}

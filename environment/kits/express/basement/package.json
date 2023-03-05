@@ -1,0 +1,17 @@
+{
+  "name": "%name%",
+  "version": "%version%",
+  "description": "%description%",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "%license%",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}

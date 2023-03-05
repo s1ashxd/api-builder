@@ -1,0 +1,32 @@
+{
+  "preferences": {
+    "tab_size": 2,
+    "line_separator": "\r\n"
+  },
+  "fields": {
+    "port": "8080",
+    "name": "name"
+  },
+  "children": [
+    {
+      "id": "express:response",
+      "fields": {
+        "path": "/"
+      },
+      "children": [
+        {
+          "id": "javascript:log",
+          "fields": {
+            "message": "test"
+          }
+        },
+        {
+          "id": "javascript:log",
+          "fields": {
+            "message": "test2"
+          }
+        }
+      ]
+    }
+  ]
+}
