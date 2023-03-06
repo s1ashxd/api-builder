@@ -1,6 +1,6 @@
 package ru.s1ash.apibuilder.utils
 
-const val VERSION = "0.0.1-beta"
+const val VERSION = "1.0.0-beta"
 
 const val LANGUAGES_DIR_ARGUMENT_NAME = "langdir"
 const val LANGUAGES_DEFAULT_DIR = "environment/languages"
